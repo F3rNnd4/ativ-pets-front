@@ -260,3 +260,61 @@ nav ul li a:hover {
     flex-direction: column;
     padding: 2rem;
 }
+
+/* CLIENTS */
+
+/* CONTACT */
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem 0 2rem 0;
+}
+
+.contact-content {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-content h4 {
+    color: #333;
+}
+
+.input-name, .input-email {
+    width: 85%;
+    height: 40px;
+    padding: 0 10px;
+    margin-top: 10px;
+    border: 1px solid #727272;
+    border-radius: 5px;
+}
+
+.input-msg {
+    width: 85%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #727272;
+    border-radius: 5px;
+}
+
+.contact-container button {
+    width: 10%;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #96c8f7;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FOOTER */
