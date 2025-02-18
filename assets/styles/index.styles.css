@@ -263,6 +263,16 @@ nav ul li a:hover {
 
 /* CLIENTS */
 
+.clients-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem 0 2rem 0;
+}
+
 /* CONTACT */
 
 .contact-container {
@@ -283,9 +293,6 @@ nav ul li a:hover {
     gap: 3px;
 }
 
-.contact-content h4 {
-    color: #333;
-}
 
 .contact-content input {
     width: 100%;
